@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/registros.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabeceralogo">
+        <nav id="menuprincipal">
+            <div><img src="imagenes/PrintPlus LOGO.png" alt=""></div>
+            <ul id="listamenu">
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+                <a href="#">Nosotros</a>
+                <ul>
+                    <li><a href="quienessomos.html">¿Quienes somos?</a></li> 
+                    <li><a href="antecedentes.html">Antecedentes</a></li>
+                    <li><a href="mision.html">Misión</a></li>
+                    <li><a href="vision.html">Visión</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Productos</a>
+                <ul>
+                    <li><a href="productos.html">Productos 3D</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Servicios</a>
+                <ul>
+                    <li><a href="modelado.html">Modelado 3D</a></li>
+                    <li><a href="prototipos.html">Diseños de prototipos</a></li>
+                </ul>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li>
+                <a href="iniciarsesion.html">Iniciar Sesión</a>
+            </li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <div>
+                <section class="registro">
+                    <h5>Registrate</h5>
+                    <form action="index.html">
+                        <input class="control" type="text" name="Nombre" value="" placeholder="Nombre" required>
+                        <input class="control" type="text" name="Apellido" value="" placeholder="Apellidos" required>
+                        <input class="control" type="tel" name="Número" value="" placeholder="Número" required>
+                        <input class="control" type="email" name="correo" value="" placeholder="Correo electrónico" required>
+                        <input class="control" type="password" name="Contraseña Nueva" value="" placeholder="Contraseña Nueva" required>
+                        <input class="control" type="password" name="Confirmar Contraseña" value="" placeholder="Confirmar Contraseña" required>
+                        <h6>Fecha de nacimiento</h6>
+                        <input class="control" type="date" name="fecha" value="Fecha de nacimiento" required> <br>
+                        <label><input class="radio" type="radio" name="edad" value="Hombre" required checked>Hombre</label>
+                        <label><input class="radio" type="radio" name="edad" value="Mujer" required checked>Mujer</label> <br><br>
+                        <input class="boton" type="submit" name="" value="Registrate" required>
+                    </form>
+                </section>
+            </div>
+        </main>
+        <div class="recuperar"></div> 
+        <footer class="pielogo">
+                <table>
+                    <th class="seccionpie">
+                        <a href="index.html">Principal</a>
+                        <a href="quienessomos.html">¿Quienes somos?</a>
+                        <a href="antecedentes.html">Antecedentes</a>
+                        <a href="mision.html">Misión</a>
+                        <a href="vision.html">Visión</a>
+                    </th>
+                    <th class="seccionpie">
+                        <h1>Ayuda</h1>
+                        <a href="contacto.html">Contacto</a>
+                    </th>
+                    <th class="seccionpie">
+                        <address>Estado de México, México</address>
+                        <small>Print Plus &copy; Derechos Reservados 2022</small> 
+                    </th>
+                </table>
+        </footer>
+</body>
+</html>
